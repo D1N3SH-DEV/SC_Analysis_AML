@@ -1,5 +1,3 @@
-# Define the content of the README.md
-readme_content = """
 # Advanced Machine Learning Project: Predicting Revenue
 
 ## 📌 Project Overview
@@ -12,7 +10,7 @@ The project demonstrates an end-to-end pipeline for preprocessing, feature engin
 
 ## 📂 Dataset Description
 
-The dataset contains features from a business context, with the objective of predicting the target variable: **Revenue**. It includes:
+The dataset contains features from a business context, to predict the target variable: **Revenue**. It includes:
 
 - **Numerical Features**: [List numerical features from your dataset]
 - **Categorical Features**: [List categorical features from your dataset]
@@ -31,7 +29,7 @@ Ensure to preprocess the dataset appropriately by handling missing values, encod
 
 ### Machine Learning Techniques
 - **Gradient Boosting**: A powerful ensemble learning technique for regression.
-- **Hyperparameter Tuning**: GridSearchCV for optimizing model performance.
+- **Hyperparameter Tuning**: GridSearchCV is used to optimize model performance.
 - **Pipeline Implementation**: Automating preprocessing and model training.
 
 ### Libraries Used
@@ -52,7 +50,7 @@ Ensure to preprocess the dataset appropriately by handling missing values, encod
 ### 2. Model Training
 - **Gradient Boosting Regressor** as the baseline model.
 - Training the model with default parameters.
-- Evaluating the performance using metrics like Mean Squared Error (MSE) and R² Score.
+- Evaluate performance using metrics like Mean Squared Error (MSE) and R² Score.
 
 ### 3. Hyperparameter Tuning
 - Tuning parameters such as:
@@ -64,7 +62,7 @@ Ensure to preprocess the dataset appropriately by handling missing values, encod
 
 ### 4. Final Evaluation
 - Testing the best model on the test dataset.
-- Reporting improved metrics and comparing against baseline performance.
+- Report improved metrics and compare them against baseline performance.
 
 ---
 
