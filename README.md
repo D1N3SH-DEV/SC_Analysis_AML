@@ -10,12 +10,12 @@ The project demonstrates an end-to-end pipeline for preprocessing, feature engin
 
 ## 📂 Dataset Description
 
-The dataset contains features from a business context, to predict the target variable: **Revenue**. It includes:
+The dataset contains features from a business context, to predict the target variable: **Revenue generated**. It includes:
 
-- **Numerical Features**: [List numerical features from your dataset]
-- **Categorical Features**: [List categorical features from your dataset]
+- **Numerical Features**: Price, Availability, Number of products sold, Revenue generated, Stock levels, Lead times, Order quantities, Shipping times, Shipping costs, Lead time, Production volumes, Manufacturing lead time, Manufacturing costs, Defect rates, Costs
+- **Categorical Features**: Product type, SKU, Customer demographics, Shipping carriers, Supplier name, Location, Inspection results, Transportation modes, Routes
 
-Ensure to preprocess the dataset appropriately by handling missing values, encoding categorical features, and scaling numerical features.
+Ensuring to preprocess the dataset appropriately by handling missing values, encoding categorical features, and scaling numerical features.
 
 ---
 
@@ -69,12 +69,12 @@ Ensure to preprocess the dataset appropriately by handling missing values, encod
 ## 📊 Results and Evaluation
 
 - **Baseline Performance**:
-  - Mean Squared Error: `X.XX`
-  - R² Score: `X.XX`
+  - Mean Squared Error: `1.56`
+  - R² Score: `-0.44`
 
 - **After Hyperparameter Tuning**:
-  - Mean Squared Error: `X.XX`
-  - R² Score: `X.XX`
+  - Mean Squared Error: `1.21`
+  - R² Score: `-0.12`
 
 ---
 
